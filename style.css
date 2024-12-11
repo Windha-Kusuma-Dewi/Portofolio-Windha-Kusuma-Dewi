@@ -1,0 +1,42 @@
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/img/hero.jpg') center/cover no-repeat;
+    height: 100vh;
+}
+
+/* About Section */
+#about img {
+    max-width: 75%;
+    border: 5px solid #007bff;
+}
+
+/* Projects Section */
+#projects .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+#projects .card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer .social-icons a {
+    font-size: 20px;
+    transition: color 0.3s;
+    margin-right: 5px;
+}
+
+footer .social-icons a:hover {
+    color: #007bff;
+}
+
+.small-profile {
+    max-width: 400px; /* Sesuaikan ukuran maksimum sesuai kebutuhan */
+    height: auto; /* Pastikan aspek rasio tetap terjaga */
+    border-radius: 100%; /* Membuat gambar menjadi lingkaran */
+}
+
+.tulis {
+    margin-left: -110px;
+    margin-top: -40px;
+}
